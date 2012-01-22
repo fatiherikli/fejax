@@ -20,39 +20,45 @@ Dökümantasyon
 =============
 Başlangıç
 ---------
-Fejax'ı sayfanızda kullanmak için jQuery betiğini ve jquery.fejax.js'yi sayfanıza dahil etmeniz gerekir.
-```<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-<script type="text/javascript" src="fejax/jquery.fejax.js"></script>```
+ Fejax'ı sayfanızda kullanmak için jQuery betiğini ve jquery.fejax.js'yi sayfanıza dahil etmeniz gerekir.
+```
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script src="fejax/jquery.fejax.js"></script>
+```
  
 Fejax'ı kullanmak
 -----------------
-Sayfadaki ajax ile yenilenmesini istediğiniz bölümü seçip fejax'ı uygulayabilirsiniz. İşte bu kadar !
-```<script>    
-    $(function () {
-        $("#container").fejax();
-    })
-</script>```
+ Sayfadaki ajax ile yenilenmesini istediğiniz bölümü seçip fejax'ı uygulayabilirsiniz. İşte bu kadar !
+```
+	<script>    
+		$(function () {
+			$("#container").fejax();
+		})
+	</script>
+```
 
 Fejax'ı kurcalamak
 -------------------
-Fejax'ın opyisonları ile istediğiniz şekilde özelleştirebilirsiniz. Örneğin sayfa yükleme efektini kapatabilir, ya da değiştirebilirsiniz.
-```<script>    
-    $(function () {
-        $("#container").fejax({
-            "close_effect" : function (page) { page.slideUp(); },
-            "open_effect" : function (page) { page.slideDown(); }
-        });
-    })
-</script>```
+ Fejax'ın opyisonları ile istediğiniz şekilde özelleştirebilirsiniz. Örneğin sayfa yükleme efektini kapatabilir, ya da değiştirebilirsiniz.
+```
+	<script>    
+		$(function () {
+			$("#container").fejax({
+				"close_effect" : function (page) { page.slideUp(); },
+				"open_effect" : function (page) { page.slideDown(); }
+			});
+		})
+	</script>
+```
 
 Ajax ile yüklenmesini istemediğiniz linkler
 --------------------------------------------
-Fejax http ile başlayan linkleri, harici bağlantıları varsayılan olarak pasif etmiştir. Ayrıca siz de ajax ile yüklenmesini istemediğiniz sayfalara no_ajax class'ını atayabilirsiniz.
+ Fejax http ile başlayan linkleri, harici bağlantıları varsayılan olarak pasif etmiştir. Ayrıca siz de ajax ile yüklenmesini istemediğiniz sayfalara no_ajax class'ını atayabilirsiniz.
 ```
-<a href="her_hangi_bir_sayfa.html" class="no_ajax">heey</a>
+	<a href="her_hangi_bir_sayfa.html" class="no_ajax">heey</a>
 ```
 
 Demo
 =====
-Demo, dökümantasyon ve daha detaylı bilgi için;
-http://fatiherikli.com/fejax/
+ Demo, dökümantasyon ve daha detaylı bilgi için;
+ http://fatiherikli.com/fejax/
