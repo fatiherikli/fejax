@@ -1,17 +1,16 @@
-Fejax nedir ?
+ï»¿Fejax nedir ?
 =============
-Bilindiği üzere artık web sayfalarında Ajax'ın önemi büyüktür. Çoğu büyük web sitesi Ajax teknolojilerini kullanmakta ve her geçen gün daha da geliştirmekte. Lakin Ajax'ın büyük avantajlarının yanında dezavantajları da bulunmakta. Fejax size statik, ya da dinamik sayfalarınızı kolayca Ajax'a çevirmekte ve Ajax'ın klasik dezavantajlarını sizin için aşmaktadır.
-Neydi bu Ajax'ın dezavantajları hatırlatalım hemen.
+BilindiÄŸi Ã¼zere artÄ±k web sayfalarÄ±nda Ajax'Ä±n Ã¶nemi bÃ¼yÃ¼ktÃ¼r. Ã‡oÄŸu bÃ¼yÃ¼k web sitesi Ajax teknolojilerini kullanmakta ve her geÃ§en gÃ¼n daha da geliÅŸtirmekte. Lakin Ajax'Ä±n bÃ¼yÃ¼k avantajlarÄ±nÄ±n yanÄ±nda dezavantajlarÄ± da bulunmakta. Fejax size statik, ya da dinamik sayfalarÄ±nÄ±zÄ± kolayca Ajax'a Ã§evirmekte ve Ajax'Ä±n klasik dezavantajlarÄ±nÄ± sizin iÃ§in aÅŸmaktadÄ±r.
 
-- SEO. Arama motorları javascript'i tanıyamamaktadır. Ajax ile açtığınız sayfaları arama motorlarının bulması güçleşecektir.
-- Geri, ileri butonlarının çalışmaması
-- Sayfa yenilendiğinde ajax ile yapılan işlemlerin kaybolması
-- Ajax ile açılan yerin url'inin alınamaması
+- SEO. Arama motorlarÄ± javascript'i tanÄ±yamamaktadÄ±r. Ajax ile aÃ§tÄ±ÄŸÄ±nÄ±z sayfalarÄ± arama motorlarÄ±nÄ±n bulmasÄ± gÃ¼Ã§leÅŸecektir.
+- Geri, ileri butonlarÄ±nÄ±n Ã§alÄ±ÅŸmamasÄ±
+- Sayfa yenilendiÄŸinde ajax ile yapÄ±lan iÅŸlemlerin kaybolmasÄ±
+- Ajax ile aÃ§Ä±lan yerin url'inin alÄ±namamasÄ±
 
-Fejax'ın özellikleri
+Fejax'Ä±n Ã¶zellikleri
 ====================
-- Tek satır ile tüm sitenize Ajax'a çevirebilirsiniz.
-- Ajax ile yüklenen sayfaları efektli bir şekilde açabilirsiniz.
-- Sayfada yenileme olmadan geri ve ileri butonlarını kullanıcı çalıştırabilir.
-- Kullanıcı sayfayı yenilediğinde kaldığı sayfadan devam edebilir.
-- SEO açısından sayfanın kaynak kodunda salt html şekildedir.
+- Tek satÄ±r ile tÃ¼m sitenize Ajax'a Ã§evirebilirsiniz.
+- Ajax ile yÃ¼klenen sayfalarÄ± efektli bir ÅŸekilde aÃ§abilirsiniz.
+- Sayfada yenileme olmadan geri ve ileri butonlarÄ±nÄ± kullanÄ±cÄ± Ã§alÄ±ÅŸtÄ±rabilir.
+- KullanÄ±cÄ± sayfayÄ± yenilediÄŸinde kaldÄ±ÄŸÄ± sayfadan devam edebilir.
+- SEO aÃ§Ä±sÄ±ndan sayfanÄ±n kaynak kodunda salt html ÅŸekildedir.
